@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "485557610199",
+    "project_id": "cozy-carikos",
+    "storage_bucket": "cozy-carikos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485557610199:android:42e120557297becd70b292",
+        "android_client_info": {
+          "package_name": "com.example.cozy_carikos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485557610199-is5fp98bkipd699g36o83te46bl0q8ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB45LiqwIjLcPZ0HxUwg0FydFJMeRUr7VM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485557610199-is5fp98bkipd699g36o83te46bl0q8ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
