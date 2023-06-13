@@ -263,14 +263,16 @@ class _DetailPageState extends State<DetailPage> {
                         child: SizedBox(
                           height: 50,
                           width: MediaQuery.of(context).size.width,
-                          child: RaisedButton(
-                            elevation: 0,
+                          child: TextButton(
                             onPressed: () {
                               launchUrl(widget.space.phone);
                             },
-                            color: purpleColor,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(17),
+                            style: TextButton.styleFrom(
+                              backgroundColor: purpleColor,
+                              elevation: 0,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(17),
+                              ),
                             ),
                             child: Text(
                               "Book Now",
